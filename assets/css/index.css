@@ -4,6 +4,16 @@ body {
     margin: 0;
     background-color: antiquewhite;
 }
+
 button {
     font-size: x-large;
+}
+
+nav {
+    background-color: coral;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
 }
