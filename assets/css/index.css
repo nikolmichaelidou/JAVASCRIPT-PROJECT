@@ -4,11 +4,18 @@ body {
     background-color: antiquewhite;
 }
 
+#banner {
+    height: 200px;
+    width: 100%;
+}
+
 button {
     font-size: x-large;
+    margin-top: 50px;
 }
 
 nav {
+    margin-top: 30%;
     background-color: coral;
     font-weight: 700;
 }
