@@ -3,7 +3,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton) 
 	function showQuestions(questions, quizContainer) {
 		// code will go here
 		var output = [];
-	var answers;
+		var answers;
 	}
 
 	function showResults(questions, quizContainer, resultsContainer) {
@@ -31,10 +31,18 @@ var myQuestions = [
 	{
 		question: 'Why was the reason it started?',
 		answers: {
-			a: 'slurplus of milk',
+			a: 'slurplus of milk?',
 			b: 'funnsies',
-			c: 'IT IS A CONSPIRACY!!!'
+			c: 'IT IS A CONSPIRACY!!!',
 		},
 		correctanswer: 'a'
+	},
+	question: 'When did it start?',
+	answers: {
+		a: '1949',
+		b: '1970s',
+		c: ' World War II to the early 1980s',
+	},
+	correctanswer: 'c'
 }
 ]
