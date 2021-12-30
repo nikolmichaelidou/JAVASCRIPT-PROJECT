@@ -1,5 +1,5 @@
-(function(){
-  function buildQuiz(){
+(function () {
+  function buildQuiz() {
     // variable to store the HTML output
     const output = [];
 
@@ -11,14 +11,14 @@
         const answers = [];
 
         // and for each available answer...
-        for(letter in currentQuestion.answers){
+        for (letter in currentQuestion.answers) {
 
           // ...add an HTML radio button
           answers.push(
             `<label>
               <input type="radio" name="question${questionNumber}" value="${letter}">
               ${letter} :
-              ${currentQuestion.answers[letter]}
+              ${currentQuestion.answers[ letter ]}
             </label>`
           );
         }
@@ -35,7 +35,7 @@
     quizContainer.innerHTML = output.join('');
   }
 
-  function showResults(){
+  function showResults() {
 
     // gather answer containers from our quiz
     const answerContainers = quizContainer.querySelectorAll('.answers');
@@ -44,25 +44,25 @@
     let numCorrect = 0;
 
     // for each question...
-    myQuestions.forEach( (currentQuestion, questionNumber) => {
+    myQuestions.forEach((currentQuestion, questionNumber) => {
 
       // find selected answer
-      const answerContainer = answerContainers[questionNumber];
+      const answerContainer = answerContainers[ questionNumber ];
       const selector = `input[name=question${questionNumber}]:checked`;
       const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
       // if answer is correct
-      if(userAnswer === currentQuestion.correctAnswer){
+      if (userAnswer === currentQuestion.correctAnswer) {
         // add to the number of correct answers
         numCorrect++;
 
         // color the answers green
-        answerContainers[questionNumber].style.color = 'lightgreen';
+        answerContainers[ questionNumber ].style.color = 'lightgreen';
       }
       // if answer is wrong or blank
-      else{
+      else {
         // color the answers red
-        answerContainers[questionNumber].style.color = 'red';
+        answerContainers[ questionNumber ].style.color = 'red';
       }
     });
 
@@ -73,32 +73,37 @@
   const quizContainer = document.getElementById('quiz');
   const resultsContainer = document.getElementById('results');
   const submitButton = document.getElementById('submit');
-const myQuestions = [
-  {
-    question: 'What is the "official" name of the Cheese Mines?',
-    answers: {
-      a: 'There is no official name',
-      b: 'This a goverment conspiracy',
-      c: 'Goverment Cheese',
+  const myQuestions = [
+    {
+      question: 'What is the "official" name of the Cheese Mines?',
+      answers: {
+        a: 'There is no official name',
+        b: 'This a goverment conspiracy',
+        c: 'Goverment Cheese',
+      },
+      correctanswer: 'c'
     },
-    correctanswer: 'c'
-  },
-  {
-    question: 'Why was the reason it started?',
-    answers: {
-      a: 'slurplus of milk?',
-      b: 'funnsies',
-      c: 'IT IS A CONSPIRACY!!!',
+    {
+      question: 'Why was the reason it started?',
+      answers: {
+        a: 'slurplus of milk?',
+        b: 'funnsies',
+        c: 'IT IS A CONSPIRACY!!!',
+      },
+      correctanswer: 'a'
     },
-    correctanswer: 'a'
-  },
-  {
-  question: 'When did it start?',
-  answers: {
-    a: '1949',
-    b: '1970s',
-    c: ' World War II to the early 1980s',
-  },
-  correctanswer: 'c'
+    {
+      question: 'When did it start?',
+      answers: {
+        a: '1949',
+        b: '1970s',
+        c: ' World War II to the early 1980s',
+      },
+      correctanswer: 'c'
 ]
 
+  buildQuiz();
+
+  // Event listeners
+  submitButton.addEventListener('click', showResults);
+})();
