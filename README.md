@@ -7,3 +7,7 @@ A fun online quiz ment to educate people about the cheese mines in the USA! How 
 
 #### Nav
 #### Quiz
+
+## Credit
+#### Code
+Code inspired by the tutorial of Web Dev Simplified https://www.youtube.com/watch?v=riDzcEQbX6k
