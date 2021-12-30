@@ -1,48 +1,104 @@
-function generateQuiz(questions, quizContainer, resultsContainer, submitButton) {
+(function(){
+  function buildQuiz(){
+    // variable to store the HTML output
+    const output = [];
 
-	function showQuestions(questions, quizContainer) {
-		// code will go here
-		var output = [];
-		var answers;
-	}
+    // for each question...
+    myQuestions.forEach(
+      (currentQuestion, questionNumber) => {
 
-	function showResults(questions, quizContainer, resultsContainer) {
-		// code will go here
-	}
+        // variable to store the list of possible answers
+        const answers = [];
 
-	// show the questions
-	showQuestions(questions, quizContainer);
+        // and for each available answer...
+        for(letter in currentQuestion.answers){
 
-	// when user clicks submit, show results
-	submitButton.onclick = function () {
-		showResults(questions, quizContainer, resultsContainer);
-	}
-}
-var myQuestions = [
-	{
-		question: 'What is the "official" name of the Cheese Mines?',
-		answers: {
-			a: 'There is no official name',
-			b: 'This a goverment conspiracy',
-			c: 'Goverment Cheese',
-		},
-		correctanswer: 'c'
-	},
-	{
-		question: 'Why was the reason it started?',
-		answers: {
-			a: 'slurplus of milk?',
-			b: 'funnsies',
-			c: 'IT IS A CONSPIRACY!!!',
-		},
-		correctanswer: 'a'
-	},
-	question: 'When did it start?',
-	answers: {
-		a: '1949',
-		b: '1970s',
-		c: ' World War II to the early 1980s',
-	},
-	correctanswer: 'c'
-}
+          // ...add an HTML radio button
+          answers.push(
+            `<label>
+              <input type="radio" name="question${questionNumber}" value="${letter}">
+              ${letter} :
+              ${currentQuestion.answers[letter]}
+            </label>`
+          );
+        }
+
+        // add this question and its answers to the output
+        output.push(
+          `<div class="question"> ${currentQuestion.question} </div>
+          <div class="answers"> ${answers.join('')} </div>`
+        );
+      }
+    );
+
+    // finally combine our output list into one string of HTML and put it on the page
+    quizContainer.innerHTML = output.join('');
+  }
+
+  function showResults(){
+
+    // gather answer containers from our quiz
+    const answerContainers = quizContainer.querySelectorAll('.answers');
+
+    // keep track of user's answers
+    let numCorrect = 0;
+
+    // for each question...
+    myQuestions.forEach( (currentQuestion, questionNumber) => {
+
+      // find selected answer
+      const answerContainer = answerContainers[questionNumber];
+      const selector = `input[name=question${questionNumber}]:checked`;
+      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+
+      // if answer is correct
+      if(userAnswer === currentQuestion.correctAnswer){
+        // add to the number of correct answers
+        numCorrect++;
+
+        // color the answers green
+        answerContainers[questionNumber].style.color = 'lightgreen';
+      }
+      // if answer is wrong or blank
+      else{
+        // color the answers red
+        answerContainers[questionNumber].style.color = 'red';
+      }
+    });
+
+    // show number of correct answers out of total
+    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+  }
+
+  const quizContainer = document.getElementById('quiz');
+  const resultsContainer = document.getElementById('results');
+  const submitButton = document.getElementById('submit');
+const myQuestions = [
+  {
+    question: 'What is the "official" name of the Cheese Mines?',
+    answers: {
+      a: 'There is no official name',
+      b: 'This a goverment conspiracy',
+      c: 'Goverment Cheese',
+    },
+    correctanswer: 'c'
+  },
+  {
+    question: 'Why was the reason it started?',
+    answers: {
+      a: 'slurplus of milk?',
+      b: 'funnsies',
+      c: 'IT IS A CONSPIRACY!!!',
+    },
+    correctanswer: 'a'
+  },
+  {
+  question: 'When did it start?',
+  answers: {
+    a: '1949',
+    b: '1970s',
+    c: ' World War II to the early 1980s',
+  },
+  correctanswer: 'c'
 ]
+
