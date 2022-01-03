@@ -81,7 +81,7 @@
         b: 'This a goverment conspiracy',
         c: 'Goverment Cheese',
       },
-      correctanswer: 'c'
+      correctAnswer: 'c'
     },
     {
       question: 'Why was the reason it started?',
@@ -90,7 +90,7 @@
         b: 'funnsies',
         c: 'IT IS A CONSPIRACY!!!',
       },
-      correctanswer: 'a'
+      correctAnswer: 'a'
     },
     {
       question: 'When did it start?',
@@ -99,7 +99,16 @@
         b: '1970s',
         c: ' World War II to the early 1980s',
       },
-      correctanswer: 'c'
+      correctAnswer: 'c'
+    },
+    {
+      question: 'Why are they called Cheese Mines?',
+      answers: {
+        a: 'Because people thought it was funny',
+        b: ' 🤷🏻‍♀️',
+        c: 'SO THE GOVERNMENT COULD HIDE THE TRUTH! 👾',
+      },
+      correctAnswer: 'a'
     }
   ]
 
