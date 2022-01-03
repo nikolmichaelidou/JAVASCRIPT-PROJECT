@@ -30,7 +30,7 @@ a {
     color: black;
 }
 a:visited {
-    color: blanchedalmond;
+    color: gray;
     text-emphasis: none;
     text-decoration: none;
     font-weight: lighter;
