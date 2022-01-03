@@ -16,6 +16,7 @@ A fun online quiz meant to educate people about the cheese mines in the USA! How
 
 #### Quiz
 
+.....
 <br>
 
 ## Planning
@@ -31,26 +32,32 @@ I've drawn some small outline on how the website should like first, before start
 
 ## Bugs & Fixes
 
-- Bug:
-  - The JavaScript Quiz would not show on HTML page.
-Managed to fix by retyping last part of the code in JS and fixing file arrangement
+- The JavaScript Quiz would not show on HTML page.
+Managed to fix by retyping last part of the code in JS and fixing file arrangement.
+- If the user selects the correct answer, it will still mark it as wrong.
+
+<br>
+
+## Testing
+
+<hr>
 
 ## Credit
 
 <hr>
 
-Code inspired by
+#### Code inspired by
 
 - The tutorial of Web Dev Simplified <https://www.youtube.com/watch?v=riDzcEQbX6k>
 - And from SimpleStepCode <https://simplestepscode.com/javascript-quiz-tutorial/>
 
-Languages used:
+#### Languages used:
 
 - HTML
 - CSS
 - JavaScript
 
-Note taking & Planning
+#### Note taking & Planning
 
 - Obsidian:
 Obsidian Notes is an interesting productivity application. It is a Markdown-based system that incorporates tags, plugins and backlinks to create a compelling to use system.
