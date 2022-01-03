@@ -100,7 +100,8 @@
         c: ' World War II to the early 1980s',
       },
       correctanswer: 'c'
-]
+    }
+  ]
 
   buildQuiz();
 
