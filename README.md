@@ -4,6 +4,8 @@
 
 A fun online quiz meant to educate people about the cheese mines in the USA! How did they start? Why? Is it all a conspiracy? 👀
 
+This website tries to have the old 90s conspiracy website vibe/design. To poke fun of the people that make everything a conspiracy, especially if it involves
+
 <br>
 
 ## Features
@@ -16,7 +18,7 @@ A fun online quiz meant to educate people about the cheese mines in the USA! How
 
 #### Quiz
 
-.....
+
 <br>
 
 ## Planning
@@ -35,6 +37,11 @@ I've drawn some small outline on how the website should like first, before start
 - The JavaScript Quiz would not show on HTML page.
 Managed to fix by retyping last part of the code in JS and fixing file arrangement.
 - If the user selects the correct answer, it will still mark it as wrong.
+Fixed, the bug was caused by a typo in JS.
+
+## Unfixed Bugs
+When the user get an answer right or wrong, the entire section get's highlighted not just the answer.
+![]() 
 
 <br>
 

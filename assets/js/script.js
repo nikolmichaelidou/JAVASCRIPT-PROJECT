@@ -47,7 +47,7 @@
     myQuestions.forEach((currentQuestion, questionNumber) => {
 
       // find selected answer
-      const answerContainer = answerContainers[ questionNumber ];
+      const answerContainer = answerContainers[questionNumber];
       const selector = `input[name=question${questionNumber}]:checked`;
       const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
@@ -57,12 +57,12 @@
         numCorrect++;
 
         // color the answers green
-        answerContainers[ questionNumber ].style.color = 'lightgreen';
+        answerContainers[questionNumber].style.color = 'lightgreen';
       }
       // if answer is wrong or blank
       else {
         // color the answers red
-        answerContainers[ questionNumber ].style.color = 'red';
+        answerContainers[questionNumber].style.color = 'red';
       }
     });
 
@@ -73,8 +73,7 @@
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
-  const myQuestions = [
-    {
+  const myQuestions = [{
       question: 'What is the "official" name of the Cheese Mines?',
       answers: {
         a: 'There is no official name',
@@ -97,9 +96,19 @@
       answers: {
         a: '1949',
         b: '1970s',
-        c: ' World War II to the early 1980s',
+        c: 'World War II to the early 1980s',
       },
       correctAnswer: 'c'
+    },
+    {
+      question: 'Are they actually cheese mines?',
+      answers: {
+        a: 'No they are just warehouses',
+        b: 'THE GOVERNMENT IS LYING! THERE ARE MINES! BUT FULL OF SECRET WEAPONS!',
+        c: 'IT IS A GOVERNMENT COVER UP!',
+
+      },
+      correctAnswer: 'a'
     },
     {
       question: 'Why are they called Cheese Mines?',
@@ -110,6 +119,7 @@
       },
       correctAnswer: 'a'
     }
+
   ]
 
   buildQuiz();
