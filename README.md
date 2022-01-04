@@ -41,7 +41,7 @@ Fixed, the bug was caused by a typo in JS.
 
 ## Unfixed Bugs
 When the user get an answer right or wrong, the entire section get's highlighted not just the answer.
-![]() 
+![bug](assets\media\Screenshot(answerbug).png) 
 
 <br>
 
@@ -67,4 +67,4 @@ When the user get an answer right or wrong, the entire section get's highlighted
 #### Note taking & Planning
 
 - Obsidian:
-Obsidian Notes is an interesting productivity application. It is a Markdown-based system that incorporates tags, plugins and backlinks to create a compelling to use system.
+Obsidian Notes is an interesting productivity application. It is a Markdown-based system that incorporates tags, plugins and backlinks to create a compelling to use system. Great tool for note-taking and planning out projects.
