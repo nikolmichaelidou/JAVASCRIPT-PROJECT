@@ -4,14 +4,12 @@ body {
     background-color: antiquewhite;
 }
 
-#banner {
-    height: 200px;
+#banner,
+#forklift {
+    height: 40%;
     width: 100%;
 }
-#forklift {
-    height: 50%;
-    width: 80%;
-}
+
 button {
     font-size: larger;
     margin: 10px;
@@ -32,6 +30,8 @@ a {
     text-decoration: none;
     color: black;
 }
+
+/* Color of the text changes when user visits link */
 a:visited {
     color: gray;
     text-emphasis: none;
