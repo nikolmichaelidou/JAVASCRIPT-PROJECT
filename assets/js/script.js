@@ -73,19 +73,20 @@
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
-  const myQuestions = [{
+  const myQuestions = [
+    {
       question: 'What is the "official" name of the Cheese Mines?',
       answers: {
         a: 'There is no official name',
-        b: 'This a goverment conspiracy',
-        c: 'Goverment Cheese',
+        b: 'This a government conspiracy',
+        c: 'Government Cheese',
       },
       correctAnswer: 'c'
     },
     {
       question: 'Why was the reason it started?',
       answers: {
-        a: 'slurplus of milk?',
+        a: 'surplus of milk?',
         b: 'funnsies',
         c: 'IT IS A CONSPIRACY!!!',
       },
@@ -119,7 +120,6 @@
       },
       correctAnswer: 'a'
     }
-
   ]
 
   buildQuiz();
