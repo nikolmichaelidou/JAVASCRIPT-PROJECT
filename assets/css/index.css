@@ -26,15 +26,12 @@ ul {
 }
 
 a {
-    text-emphasis: none;
     text-decoration: none;
     color: black;
 }
 
 /* Color of the text changes when user visits link */
 a:visited {
-    color: gray;
-    text-emphasis: none;
-    text-decoration: none;
-    font-weight: lighter;
+    color: rgb(255, 0, 0);
+    font-weight: 900;
 }
