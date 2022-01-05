@@ -4,22 +4,31 @@
 
 A fun online quiz meant to educate people about the cheese mines in the USA! How did they start? Why? Is it all a conspiracy? 👀
 
-This website tries to have the old 90s conspiracy website vibe/design. To poke fun of the people that make everything a conspiracy, especially if it involves
+This website tries to have the old 90s conspiracy website vibe/design. To poke fun of the people that make everything a conspiracy, especially if it involves the government.
 
 <br>
+<hr>
 
-## Features
+## Existing Features
 
-#### Nav
+#### Navigation Bar
 
 - It features
   - Two links:
-    - In the Homepage, there are two links, one takes the user to a history channel article about the "cheese mines", if the user wishes to learn more
+    - In the Homepage, there are two links, one takes the user to a history channel article about the "cheese mines", if the user wishes to learn more.
+  ![]()
 
 #### Quiz
 
+- Four questions.
+  - Three answers.
+    - A submit button at the end of the quiz.
+      - It will highlight if you got the correct or wrong answer, if it is correct it will highlight in green, if it is wrong it will highlight in red.
+      - It will also show how many questions, out of four, the user got right.
+![]()
 
 <br>
+<hr>
 
 ## Planning
 
@@ -27,10 +36,11 @@ This website tries to have the old 90s conspiracy website vibe/design. To poke f
   - Is the topic interesting?
     <br>
 
-I've drawn some small outline on how the website should like first, before start coding.
+I've drawn a small outline on how the website should like first, before start coding.
 ![sketch](assets\media\1641208909142.jpg)
 
 <br>
+<hr>
 
 ## Bugs & Fixes
 
@@ -40,25 +50,30 @@ Managed to fix by retyping last part of the code in JS and fixing file arrangeme
 Fixed, the bug was caused by a typo in JS.
 
 ## Unfixed Bugs
+
 When the user get an answer right or wrong, the entire section get's highlighted not just the answer.
-![bug](assets\media\Screenshot(answerbug).png) 
+![bug](assets\media\Screenshot(answerbug).png)
 
 <br>
+<hr>
 
 ## Testing
 
+#### Validator
+
+<br>
 <hr>
 
 ## Credit
 
-<hr>
+
 
 #### Code inspired by
 
 - The tutorial of Web Dev Simplified <https://www.youtube.com/watch?v=riDzcEQbX6k>
 - And from SimpleStepCode <https://simplestepscode.com/javascript-quiz-tutorial/>
 
-#### Languages used:
+#### Languages used
 
 - HTML
 - CSS
@@ -66,5 +81,5 @@ When the user get an answer right or wrong, the entire section get's highlighted
 
 #### Note taking & Planning
 
-- Obsidian:
-Obsidian Notes is an interesting productivity application. It is a Markdown-based system that incorporates tags, plugins and backlinks to create a compelling to use system. Great tool for note-taking and planning out projects.
+- Obsidian Notes
+  - It is an interesting productivity application. It is a Markdown-based system that incorporates tags, plugins and back-links to create a compelling to use system. Great tool for note-taking and planning out projects. 
