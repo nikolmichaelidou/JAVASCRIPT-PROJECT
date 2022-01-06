@@ -37,7 +37,7 @@ This website tries to have the old 90s conspiracy website vibe/design. To poke f
     <br>
 
 I've drawn a small outline on how the website should like first, before start coding.
-![sketch](assets\media\1641208909142.jpg)
+![sketch](assets\media\sketch.jpg)
 
 <br>
 <hr>
@@ -60,6 +60,11 @@ When the user get an answer right or wrong, the entire section get's highlighted
 ## Testing
 
 #### Validator
+
+- HTML
+  - No errors were returned when passing through the official W3C validator
+- CSS
+  - No errors were found when passing through the official (Jigsaw) validator
 
 <br>
 <hr>
