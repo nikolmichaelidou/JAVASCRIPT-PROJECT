@@ -53,7 +53,7 @@ Fixed, the bug was caused by a typo in JS.
 
 When the user get an answer right or wrong, the entire section get's highlighted not just the answer.
 
-![bug](assets\media\Screenshot(answerbug).png)
+![bug](assets\media\Screenshot-answerbug.png)
 
 <br>
 <hr>
