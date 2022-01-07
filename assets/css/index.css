@@ -2,11 +2,16 @@ body {
     text-align: center;
     font-family: sans-serif;
     background-color: antiquewhite;
+    overflow-y: scroll;
+    margin: auto;
+}
+p {
+    font-weight: 600;
 }
 
 #banner,
-#forklift {
-    height: 40%;
+#gif {
+    height: 400%;
     width: 100%;
 }
 
@@ -33,6 +38,6 @@ a {
 
 /* Color of the text changes when user visits link */
 a:visited {
-    color: rgb(255, 0, 0);
+    color: rgb(44, 39, 39);
     font-weight: 900;
 }
