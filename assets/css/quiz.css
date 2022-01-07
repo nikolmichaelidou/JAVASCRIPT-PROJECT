@@ -22,12 +22,12 @@ body {
 .answers label {
     display: block;
 }
+
 #results {
-font-size: 50px;
+    font-size: 50px;
 }
 
 #submit {
-    font-size: 20px;
     background-color: rgb(194, 135, 9);
     color: #fff;
     border: 0px;
@@ -43,9 +43,8 @@ font-size: 50px;
 }
 
 nav {
-    margin-top: 20px;
     background-color: coral;
-    font-weight: 700;
+    font-weight: 600;
     color: black;
     text-align: center;
 }
@@ -54,10 +53,15 @@ ul {
     list-style: none;
 }
 
+li {
+    margin: 0%;
+    padding: 0%;
+}
+
 a {
     text-decoration: none;
     color: black;
-    font-size: x-large;
+    font-size: 25px;
 }
 
 /* Color of the text changes when user visits link */

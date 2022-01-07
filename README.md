@@ -52,6 +52,7 @@ Fixed, the bug was caused by a typo in JS.
 ## Unfixed Bugs
 
 When the user get an answer right or wrong, the entire section get's highlighted not just the answer.
+
 ![bug](assets\media\Screenshot(answerbug).png)
 
 <br>
@@ -63,6 +64,7 @@ When the user get an answer right or wrong, the entire section get's highlighted
 
 - HTML
   - No errors were returned when passing through the official W3C validator
+![]()
 - CSS
   - No errors were found when passing through the official (Jigsaw) validator
 
@@ -87,4 +89,5 @@ When the user get an answer right or wrong, the entire section get's highlighted
 #### Note taking & Planning
 
 - Obsidian Notes
-  - It is an interesting productivity application. It is a Markdown-based system that incorporates tags, plugins and back-links to create a compelling to use system. Great tool for note-taking and planning out projects. 
+  - It is an interesting productivity application. It is a Markdown-based system that incorporates tags, plugins and back-links to create a compelling to use system. Great tool for note-taking and planning out projects. Later you can export your notes as PDFs. 
+![]()
