@@ -66,7 +66,7 @@ a {
 
 /* Color of the text changes when user visits link */
 a:visited {
-    color: rgb(44, 39, 39);
+    color: rgb(80, 80, 80);
     font-weight: 900;
 }
 
