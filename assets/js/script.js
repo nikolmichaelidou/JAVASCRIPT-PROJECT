@@ -73,8 +73,7 @@
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
-  const myQuestions = [
-    {
+  const myQuestions = [{
       question: 'What is the "official" name of the Cheese Mines?',
       answers: {
         a: 'There is no official name',
@@ -119,6 +118,24 @@
         c: 'SO THE GOVERNMENT COULD HIDE THE TRUTH! 👾',
       },
       correctAnswer: 'a'
+    },
+    {
+      question: 'What is in it?',
+      answers: {
+        a: 'Dunno. Gouda or Cheddar probably',
+        b: 'THEY ARE TRYING TO POISON US!!!',
+        c: 'According to wikipedia: "it consists of a variety of cheese types and other ingredients, such as emulsifiers, blended together... " ',
+      },
+      correctAnswer: 'c'
+    },
+    {
+      question: 'How many pounds could a state ask for?',
+      answers: {
+        a: '10 million pounds (4535.9237 metric tons)',
+        b: 'THERE IS NO WAY THE GOVERNMENT WOULD DO THAT! IT IS ALL LIE!',
+        c: '30 million pounds (13607.7711 metric tons)',
+      },
+      correctAnswer: 'c'
     }
   ]
 
