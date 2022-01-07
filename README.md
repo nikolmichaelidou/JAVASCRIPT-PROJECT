@@ -20,7 +20,7 @@ This website tries to have the old 90s conspiracy website vibe/design. To poke f
 
 #### Quiz
 
-- Four questions.
+- Seven questions.
   - Three answers.
     - A submit button at the end of the quiz.
       - It will highlight if you got the correct or wrong answer, if it is correct it will highlight in green, if it is wrong it will highlight in red.
@@ -37,7 +37,7 @@ This website tries to have the old 90s conspiracy website vibe/design. To poke f
     <br>
 
 I've drawn a small outline on how the website should like first, before start coding.
-![sketch](assets\media\sketch.jpg)
+![sketch](assets/media/sketch.jpg)
 
 <br>
 <hr>
@@ -53,7 +53,7 @@ Fixed, the bug was caused by a typo in JS.
 
 When the user get an answer right or wrong, the entire section get's highlighted not just the answer.
 
-![bug](assets\media\Screenshot-answerbug.png)
+![bug](assets/media/Screenshot-answerbug.png)
 
 <br>
 <hr>
@@ -79,6 +79,9 @@ When the user get an answer right or wrong, the entire section get's highlighted
 
 - The tutorial of Web Dev Simplified <https://www.youtube.com/watch?v=riDzcEQbX6k>
 - And from SimpleStepCode <https://simplestepscode.com/javascript-quiz-tutorial/>
+
+#### Gifs
+- The gifs used have been taken by Giphy https://giphy.com/
 
 #### Languages used
 
