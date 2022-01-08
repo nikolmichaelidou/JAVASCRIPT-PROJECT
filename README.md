@@ -73,8 +73,6 @@ When the user get an answer right or wrong, the entire section get's highlighted
 
 ## Credit
 
-
-
 #### Code inspired by
 
 - The tutorial of Web Dev Simplified <https://www.youtube.com/watch?v=riDzcEQbX6k>
