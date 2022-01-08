@@ -66,14 +66,29 @@ When the user get an answer right or wrong, the entire section get's highlighted
 #### Validator
 
 - HTML
-  - A couple of erros were found in index.html . Not
+  - A couple of erros were found in index.html
 ![html](assets/media/html-validator.png)
+
 - CSS
   - No errors were returned when passing through the official W3C validator
 ![css-test](assets/media/css-validator.png)
-- JS
-  - No errors were found when passing through the official (Jigsaw) validator
 
+- JS
+- - No errors were found when passing through the official (Jigsaw) validator
+  - Metrics returned:
+    - There are 5 functions in this file.
+    - Function with the largest signature take 2 arguments, while the median is 0.
+    - Largest function has 8 statements in it, while the median is 4.
+    - The most complex function has a cyclomatic complexity value of 3 while the median is 1.
+
+#### Browers tested on
+- Opera GX
+  - Worked normally 
+- Microsoft Edge
+  -  Worked normally
+- Google Chrome
+  - Worked normally
+  
 <br>
 <hr>
 
