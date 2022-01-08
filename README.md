@@ -16,7 +16,7 @@ This website tries to have the old 90s conspiracy website vibe/design. To poke f
 - It features
   - Two links:
     - In the Homepage, there are two links, one takes the user to a history channel article about the "cheese mines", if the user wishes to learn more.
-  ![]()
+  ![nav-bar-img](assets/media/nav-bar.png)
 
 #### Quiz
 
@@ -63,9 +63,11 @@ When the user get an answer right or wrong, the entire section get's highlighted
 #### Validator
 
 - HTML
-  - No errors were returned when passing through the official W3C validator
-![]()
+  - 
 - CSS
+  - No errors were returned when passing through the official W3C validator
+![css-test](assets/media/css-validator.png)
+- JS
   - No errors were found when passing through the official (Jigsaw) validator
 
 <br>
