@@ -95,10 +95,10 @@
       question: 'When did it start?',
       answers: {
         a: '1949',
-        b: '1970s',
+        b: '1980s',
         c: 'World War II to the early 1980s',
       },
-      correctAnswer: 'c'
+      correctAnswer: 'b'
     },
     {
       question: 'Are they actually cheese mines?',

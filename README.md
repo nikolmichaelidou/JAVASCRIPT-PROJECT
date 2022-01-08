@@ -34,6 +34,9 @@ This website tries to have the old 90s conspiracy website vibe/design. To poke f
 
 - First I've had to figure put who is this website for?
   - Is the topic interesting?
+    - Why this topic? 
+      - Cheese mines sounds more like an amusment park ride than goverment warehouses full of cheese.
+      - People in the USA somewhat now what they are (or think that they are fake) but not here in here in Europe. So I thought their fun and turn into a fun quiz.
     <br>
 
 I've drawn a small outline on how the website should like first, before start coding.
@@ -63,7 +66,8 @@ When the user get an answer right or wrong, the entire section get's highlighted
 #### Validator
 
 - HTML
-  - 
+  - A couple of erros were found in index.html . Not
+![html](assets/media/html-validator.png)
 - CSS
   - No errors were returned when passing through the official W3C validator
 ![css-test](assets/media/css-validator.png)
