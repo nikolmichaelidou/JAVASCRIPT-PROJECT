@@ -41,3 +41,10 @@ a:visited {
     color: rgb(80, 80, 80);
     font-weight: 900;
 }
+
+/* Styling for the embed gifs */
+.giphy-embed {
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
