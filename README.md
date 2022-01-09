@@ -11,7 +11,8 @@ This website tries to have the old 90s conspiracy website vibe/design. To poke f
 ## Existing Features
 
 #### Logo & Banner
-
+- Featured at the top of the page, the logo and banner, which is a gif, are easy to see for the user.
+![Logo and Banner](assets/media/LogoandBanner.png)
 #### Navigation Bar
 
 - It features
