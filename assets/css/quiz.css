@@ -70,7 +70,9 @@ a:visited {
     font-weight: 900;
 }
 
-#banner {
-    height: 200px;
+/* Styling for the embed gifs */
+.giphy-embed {
+    border: 0;
+    height: 100%;
     width: 100%;
 }

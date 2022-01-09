@@ -9,12 +9,6 @@ p {
     font-weight: 600;
 }
 
-#banner,
-#gif {
-    height: 400%;
-    width: 100%;
-}
-
 button {
     font-size: larger;
     margin: 10px;

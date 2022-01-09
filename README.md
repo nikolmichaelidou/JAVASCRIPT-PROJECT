@@ -10,6 +10,8 @@ This website tries to have the old 90s conspiracy website vibe/design. To poke f
 
 ## Existing Features
 
+#### Logo & Banner
+
 #### Navigation Bar
 
 - It features
@@ -109,4 +111,4 @@ When the user get an answer right or wrong, the entire section get's highlighted
 
 - Obsidian Notes
   - It is an interesting productivity application. It is a Markdown-based system that incorporates tags, plugins and back-links to create a compelling to use system. Great tool for note-taking and planning out projects. Later you can export your notes as PDFs. 
-![]()
+
